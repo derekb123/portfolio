@@ -1,0 +1,9 @@
+.about-info{
+  display: flex;
+  flex-direction: column;
+}
+.about-info-top{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}

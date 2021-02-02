@@ -1,9 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
+@import 'bootstrap/dist/css/bootstrap.min.css';
 
 @import './variables';
 @import './typography';
 
 @import './components/hero';
+@import './components/about';
+@import './components/title';
+@import './components/statsbar';
+@import './components/derek-image';
 
 
 

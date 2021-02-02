@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
+.stat-bar{
+  margin: .5rem;
+}
+
+.stat-bar-label{
+  font-size: $mid-font-size;
+  font-family: 'Alfa Slab One', 'cursive';
+  color: $dark-color;
+}
+
+.stat-bar-amount{
+  border-color: $dark-color;
+  border-radius: 10px;
+  // border-width: 7px;
+  background-color: $accent-color;
+  // border-style: solid;
+  // // border-top: 3px;
+  // // border-left: 3px;
+  // // border-bottom: 3px;
+  // border-right: none;
+}
+
+// .stat-bar-void{
+//   background-color: $white-color;
+//   border-style: solid;
+//   // border-top: 3px;
+//   // border-left: 3px;
+//   // border-bottom: 3px;
+//   border-left: none;
+// }
