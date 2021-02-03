@@ -33,7 +33,7 @@ const Hero = () => {
           </Col>
           <Col>
           <Fade right={true} duration={1700} delay={1300} distance='50px'>
-              <img src={ heroImage } alt='this is a cowboy riding a computer mouse'/>
+              <img src={ heroImage } className='hero-image' alt='this is a cowboy riding a computer mouse'/>
             </Fade>
           </Col>
         </Row>

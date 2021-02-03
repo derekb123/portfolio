@@ -5,6 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './style/App.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { IconContext } from "react-icons";
+
 
 ReactDOM.render(
   <React.StrictMode>

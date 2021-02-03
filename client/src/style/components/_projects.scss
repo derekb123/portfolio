@@ -1,5 +1,37 @@
-.projects-info {
+.project {
+  // padding:40px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-info {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  text-align: center;
+  padding:20px 0px;
+  width: 40vw;
+  text-justify: inter-word;
+}
+
+.projects-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40vw;
+  margin-bottom: 2rem;
+}
+
+.projects-info-text {
+  color: $dark-color2;
+  font-size: 1rem;
+  text-align: justify;
 }

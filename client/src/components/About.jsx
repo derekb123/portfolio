@@ -14,7 +14,7 @@ const About = () => {
         <Row>
           <Col className='about-info'>
             <Title title='About'/>
-            <Fade left={true} duration={1200} delay={400} distance='50px'>
+            
               <div >
                 <div className='about-info-top'>
                     <img className='derek-image' src={ derekImage } height={300} alt='this is Dereks face'/>
@@ -23,6 +23,7 @@ const About = () => {
                     </p> */}
                 </div>
                 <div>
+                  <Fade left={true} duration={1200} delay={400} distance='50px'>
                   <p className='about-info-bottom'>
                     {'I bring over a decade of technical, creative, and collaborative experience from architecture and other design roles into full-stack software development.'}
                   </p>
@@ -30,9 +31,9 @@ const About = () => {
                   <p className='about-info-bottom'>
                     {'I have a passion for this work, and continuing to take highly complex problems and create beautiful, streamlined, efficient solutions.'}
                   </p>
+                  </Fade>
                 </div>
               </div>
-            </Fade>
           </Col>
           <Col xs={1}>
           </Col>

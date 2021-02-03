@@ -6,7 +6,7 @@ const StatBar = ({label, amount, delayTime}) => {
 
   return (
       <Container className='stat-bar'>
-        <Fade left={true} duration={1200} delay={delayTime} distance='50px'>
+        <Fade left={true} duration={500} delay={delayTime} distance='50px'>
             <Row>
               <Col xs={5} className='stat-bar-label'>
                 <h3>
