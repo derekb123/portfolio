@@ -18,13 +18,17 @@ const About = () => {
               <div className='about-info'>
                 <div className='about-info-top'>
                     <img className='derek-image' src={ derekImage } height={300} alt='this is Dereks face'/>
-                    <p className='about-info-text'>
-                      {'Through my initial background in architecture, I worked with many different teams on various projects to take highly complex problems and create beautiful, streamlined, efficient solutions under challenging deadlines. These experiences taught me a great deal about technical problem solving, design, and working in various dynamics with different personalities.'}
-                    </p>
+                    {/* <p className='about-info-text'>
+                      {'I have an ecclectic technical and creative background which has taught me many things. Through my previous career in architecture and design, I have learned a great deal about technical problem solving, forming innovative solutions, and working in various dynamics with different personalities.'}
+                    </p> */}
                 </div>
                 <div>
                   <p className='about-info-bottom'>
-                    {'I finally decided to further pursue my passion for programming, discovered initially through parametric design, and fueled by my desire to harness the power of code while working in tech-roles. I recently completed a 12-week immersive web development bootcamp at Lighthouse Labs. In that time, I was able to build multiple responsive and tested full-stack web applications. My capstone project, a sort of “Airbnb” for connecting urban farmers with land owners, was built in under 2 weeks using React, Express, Node.js, and  Postgresql.'}
+                    {'I bring over a decade of technical, creative, and collaborative experience from architecture and other design roles into full-stack software development.'}
+                  </p>
+                  <br/>
+                  <p className='about-info-bottom'>
+                    {'I have a passion for this work, and continuing to take highly complex problems and create beautiful, streamlined, efficient solutions.'}
                   </p>
                 </div>
               </div>

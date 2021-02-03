@@ -1,7 +1,7 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import { Fade } from 'react-reveal';
-import heroImage from '../images/heroImage.jpg'
+import heroImage from '../images/heroImage.png'
 
 
 const Hero = () => {
@@ -29,7 +29,7 @@ const Hero = () => {
           <Col>
           </Col>
           <Col>
-          <Fade right={true} duration={1200} delay={400} distance='50px'>
+          <Fade right={true} duration={1200} delay={1000} distance='50px'>
               <img src={ heroImage } alt='this is a cowboy riding a computer mouse'/>
             </Fade>
           </Col>
