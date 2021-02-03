@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container, Row} from 'react-bootstrap';
-import { Fade } from 'react-reveal';
+// import { Fade } from 'react-reveal';
 import Title from './Title';
 import Project from './Project';
 import regeneroot3 from '../images/regeneroot3.gif'

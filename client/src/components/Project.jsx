@@ -1,6 +1,6 @@
 import React from 'react';
-import {Container, Row, Col} from 'react-bootstrap';
-import { Flip, Fade} from 'react-reveal';
+import {Container, Row} from 'react-bootstrap';
+import { Flip} from 'react-reveal';
 import Subtitle from './Subtitle';
 
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Flip } from 'react-reveal';
+// import { Flip } from 'react-reveal';
 
 const Title = ({ title }) => {
 
