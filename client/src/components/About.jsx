@@ -11,7 +11,6 @@ const About = () => {
   return (
     <section className="about">
       <Container>
-       
         <Row>
           <Col className='about-info'>
             <Title title='About'/>

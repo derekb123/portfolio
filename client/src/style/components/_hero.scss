@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
 
 
 .hero {
@@ -46,7 +47,7 @@
   align-items: center;
   justify-content: flex-end;
   animation: bounce; 
-  animation-duration: 4s; 
+  animation-duration: 6s; 
 }
 
 .arrow {
