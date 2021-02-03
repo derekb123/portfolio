@@ -1,8 +1,10 @@
 .derek-image {
   height: 250px;
-  border-radius: 30px;
+  border-radius: 125px;
   // display: inline;
-  border: none;
+  border: 6px;
+  border-style: solid;
+  border-color: $accent-color;
   // float: left;
-  margin: 0px 15px 45px 0px;
+  margin: 0px 15px 55px 0px;
 }
