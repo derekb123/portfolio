@@ -11,11 +11,12 @@ const About = () => {
   return (
     <section className="about">
       <Container>
-        <Title title='About'/>
+       
         <Row>
-          <Col>
+          <Col className='about-info'>
+            <Title title='About'/>
             <Fade left={true} duration={1200} delay={400} distance='50px'>
-              <div className='about-info'>
+              <div >
                 <div className='about-info-top'>
                     <img className='derek-image' src={ derekImage } height={300} alt='this is Dereks face'/>
                     {/* <p className='about-info-text'>
@@ -36,8 +37,9 @@ const About = () => {
           </Col>
           <Col xs={1}>
           </Col>
-          <Col>
-           <Stats />
+          <Col className='about-skills'>
+            <Title title='Skills'/>
+            <Stats />
           </Col>
         </Row>
       </Container>

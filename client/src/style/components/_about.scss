@@ -1,9 +1,17 @@
 .about-info{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
+
 .about-info-top{
-  display: inline-block;
-  flex-wrap: wrap;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-skills{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

@@ -17,8 +17,11 @@ const Hero = () => {
                 <br />
                 <span className="hero-accent"> Derek Butvin</span>
                 .
-                <br />
-                I'm a 
+              </h1>
+            </Fade>
+            <Fade left={true} duration={1200} delay={1000} distance='50px'>
+              <h1 className="hero-title">
+                I'm a
                 <br />
                 full-stack
                 <br />
@@ -26,7 +29,7 @@ const Hero = () => {
               </h1>
             </Fade>
           </Col>
-          <Col>
+          <Col xs={1}>
           </Col>
           <Col>
           <Fade right={true} duration={1200} delay={1000} distance='50px'>
