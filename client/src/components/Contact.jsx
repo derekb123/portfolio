@@ -15,17 +15,17 @@ const Contact = () => {
         <Row classname='contact-row'>
           <Col className='contact-item' xs={3}>
             <IconContext.Provider value={{ size: '3em', color: "rgb(99, 126, 141)", className: "contact-icon" }}>
-              <div>
+              <div onClick = {() => window.open("mailto:derekbutvin@gmail.com")}>
                 <ImMail />
               </div>
             </IconContext.Provider>
-            <div className='contact-text'>
+            <div className='contact-text' >
               derekbutvin@gmail.com
             </div>
           </Col>
           <Col className='contact-item' xs={3}>
             <IconContext.Provider value={{ size: '3em', color: "rgb(99, 126, 141)", className: "contact-icon" }}>
-              <div>
+              <div onClick={() => window.open('https://www.linkedin.com/in/derekbutvin/')}>
                 <ImLinkedin />
               </div>
             </IconContext.Provider>
@@ -35,7 +35,7 @@ const Contact = () => {
           </Col>
           <Col className='contact-item' xs={3}>
             <IconContext.Provider value={{ size: '3em', color: "rgb(99, 126, 141)", className: "contact-icon" }}>
-              <div>
+              <div onClick={() => window.open('https://github.com/derekb123')}>
                 <ImGithub />
               </div>
             </IconContext.Provider>
@@ -45,12 +45,12 @@ const Contact = () => {
           </Col>
           <Col className='contact-item' xs={3}>
             <IconContext.Provider value={{ size: '3em', color: "rgb(99, 126, 141)", className: "contact-icon" }}>
-              <div>
+              <div onClick={() => window.open('https://dsbutvin.myportfolio.com/')}>
                 <ImPacman />
               </div>
             </IconContext.Provider>
             <div className='contact-text'>
-              dsbutvin.myportfolio.com
+              design_portfolio
             </div>
           </Col>
         </Row>

@@ -14,6 +14,12 @@
 
 .contact-icon {
     margin-bottom: 1rem;
+    // transition: all .5s ease;
+}
+
+.contact-icon:hover {
+    color: $accent-color;
+    filter: drop-shadow(2px 2px 2px #000000);
 }
 
 .contact-row {

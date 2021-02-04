@@ -4,7 +4,7 @@ import { Flip} from 'react-reveal';
 import Subtitle from './Subtitle';
 
 
-const Project = ({name, image}) => {
+const Project = ({name, image, text}) => {
 
   return (
     <Container className='project'>
@@ -14,7 +14,7 @@ const Project = ({name, image}) => {
             <Subtitle subtitle={name}/>
           </Flip>
             <p className='projects-info-text'>
-                    {'I have an ecclectic technical and creative background which has taught me many things. Through my previous career in architecture and design, I have learned a great deal projects technical problem solving, forming innovative solutions, and working in various dynamics with different personalities.'}
+              {text}
             </p>
         </Row>
         <Row className='projects-image'>
