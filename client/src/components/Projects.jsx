@@ -18,7 +18,7 @@ const Projects = () => {
         </h2>
         <Row>
             <Project 
-            name='Regeneroot' 
+            name='- Regeneroot -' 
             image={regeneroot3} 
             demo={true}
             demoPath='https://regeneroot3.netlify.app/'
@@ -30,7 +30,7 @@ const Projects = () => {
         <Row>
           {/* <Fade top={true} duration={1200} delay={400} distance='50px'> */}
             <Project 
-            name='Rest-O' 
+            name='- Rest-O -' 
             image={resto}
             githubPath='https://github.com/derekb123/LHL-Midterm'
             text='RestO! is your friendly food ordering web application, which allows users to place orders and receive SMS notifications about their order status. It was a group project (with 2 other team members) built in one week using Node, Express, PSQL, Twilio, JavaScript, jQuery, HTML and SASS. My main contributions were to the backend routing, database interaction, and the frontend requests for the cart functions.'
@@ -40,7 +40,7 @@ const Projects = () => {
         <Row>
           {/* <Fade top={true} duration={1200} delay={400} distance='50px'> */}
             <Project 
-            name='Scheduler' 
+            name='- Scheduler -' 
             image={scheduler}
             githubPath='https://github.com/derekb123/scheduler'
             text='An app to facilitate a student scheduling an interview appointment with an interviewer on a specific time and day of the week. I worked to implement the React components and the testing.'
