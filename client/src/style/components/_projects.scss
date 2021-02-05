@@ -36,6 +36,13 @@
   text-align: justify;
 }
 
+.projects-info-text2 {
+  color: $dark-color2;
+  font-size: 1rem;
+  text-align: justify;
+  font-weight: 700;
+}
+
 .projects-buttons {
   display: flex;
   flex-direction: row;
@@ -51,14 +58,14 @@
   // border-color: $accent-color;
   // border-style: solid;
   // border-width: 4px;
-  color: $white-color;
+  color: $dark-color;
   font-weight: 700;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   border-radius: 2rem;
-  background: $dark-color;
+  background: $accent-color;
   border-style:none;
 }
 

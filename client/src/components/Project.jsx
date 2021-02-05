@@ -4,7 +4,7 @@ import { Flip} from 'react-reveal';
 import Subtitle from './Subtitle';
 
 
-const Project = ({name, image, text, demo, demoPath, githubPath}) => {
+const Project = ({name, image, text, demo, demoPath, githubPath, secondText}) => {
 
   return (
     <Container className='project'>
@@ -21,6 +21,8 @@ const Project = ({name, image, text, demo, demoPath, githubPath}) => {
             </Row>
             <p className='projects-info-text'>
               {text}
+              <span className='projects-info-text2'>{secondText}</span>
+              
             </p>
       </Row>
     </Container>

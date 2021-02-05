@@ -23,7 +23,7 @@ const Hero = () => {
               <h1 className="hero-title">
                 I'm a
                 <br />
-                full-stack
+                software
                 <br />
                 developer.
               </h1>

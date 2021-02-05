@@ -30,7 +30,7 @@
 }
 
 .contact-text {
-  color: $dark-color;
+  color: $dark-color2;
   font-family: 'Roboto', sans-serif;
   font-size: 1rem;
 }
@@ -38,10 +38,22 @@
 .footer-text {
   display:flex;
   flex-direction: column;
-  color: $dark-color;
+  color: $dark-color2;
   font-family: 'Roboto', sans-serif;
   font-size: .7rem;
-  margin-top: 3rem;
+  // margin-top: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.thank-you-text {
+  display:flex;
+  flex-direction: column;
+  color: $dark-color;
+  font-family: 'Alfa Slab One', 'cursive';
+  font-size: 1.5rem;
+  margin-top: 2.8rem;
   align-items: center;
   justify-content: center;
   text-align: center;

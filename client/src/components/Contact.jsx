@@ -11,7 +11,9 @@ const Contact = () => {
   return (
     <section className='contact'>
       <Container className='contact'>
-        <Title title='Connect'/>
+      <h2 className='comp-title2'>
+        Connect
+      </h2>
         <Row classname='contact-row'>
           <Col className='contact-item' xs={3}>
             <IconContext.Provider value={{ size: '3em', color: "rgb(99, 126, 141)", className: "contact-icon" }}>
@@ -54,10 +56,13 @@ const Contact = () => {
             </div>
           </Col>
         </Row>
+        <Row className='thank-you-text'>
+          Thank you for visiting!
+        </Row>
         <Row className='footer-text'>
           This site was built with React.js. 
           <br/>
-          (And will include more state management in the future :))
+          {/* (And will include more state management in the future :)) */}
         </Row>
       </Container>
     </section>

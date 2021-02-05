@@ -1,9 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 
-.comp-title{
+.comp-title1{
   font-size: $big-font-size;
   font-family: 'Alfa Slab One', 'cursive';
   margin-bottom: 3.2rem;
   margin-top: 3.5rem;
   color: $dark-color;
+}
+
+.comp-title2{
+  font-size: $big-font-size;
+  font-family: 'Alfa Slab One', 'cursive';
+  margin-bottom: 3.2rem;
+  margin-top: 3.5rem;
+  color: $dark-color2;
 }
