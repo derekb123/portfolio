@@ -54,6 +54,11 @@ const Contact = () => {
             </div>
           </Col>
         </Row>
+        <Row className='footer-text'>
+          This site was built with React.js. 
+          <br/>
+          (And will include more state management in the future :))
+        </Row>
       </Container>
     </section>
   )
