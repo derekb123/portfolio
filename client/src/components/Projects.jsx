@@ -1,9 +1,8 @@
 import React from 'react';
 import {Container, Row} from 'react-bootstrap';
 // import { Fade } from 'react-reveal';
-import Title from './Title';
 import Project from './Project';
-import regeneroot3 from '../images/regeneroot3.gif'
+import regeneroot from '../images/regeneroot.jpg'
 import resto from '../images/resto.png'
 import scheduler from '../images/scheduler.png'
 
@@ -19,10 +18,10 @@ const Projects = () => {
         <Row>
             <Project 
             name='- Regeneroot -' 
-            image={regeneroot3} 
+            image={regeneroot} 
             demo={true}
-            demoPath='https://regeneroot3.netlify.app/'
-            githubPath='https://github.com/derekb123/regeneroot3'
+            demoPath='https://regeneroot.netlify.app/'
+            githubPath='https://github.com/derekb123/regeneroot'
             text='A full-stack web app that helps urban farmers connect with land owners who would like to lease their land (essentially an Airbnb for urban farmers!). Gardeners can log in, search lots in various ways, message owners, and checkout a lease agreement. Owners can login, create, edit, delete and manage their properties. This was a group project (with 2 other team members) built in less than 2 weeks.'
             secondText='(Only search for Edmonton, Canada, and Langley, Canada in the demo :))'
             />
