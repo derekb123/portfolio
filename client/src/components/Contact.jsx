@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Title from './Title';
 // import ContactItem from './ContactItem';
 import { ImLinkedin, ImGithub, ImMail, ImPacman  } from "react-icons/im";
 import { IconContext } from "react-icons";

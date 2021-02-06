@@ -1,7 +1,6 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import { Fade } from 'react-reveal';
-import Title from './Title';
 import Stats from './Stats';
 import derekImage from '../images/derekImage.png'
 
