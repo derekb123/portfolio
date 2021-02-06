@@ -21,7 +21,7 @@ const Projects = () => {
             image={regeneroot} 
             demo={true}
             demoPath='https://regeneroot3.netlify.app/'
-            githubPath='https://github.com/derekb123/regeneroot'
+            githubPath='https://github.com/derekb123/regeneroot3'
             text='A full-stack web app that helps urban farmers connect with land owners who would like to lease their land (essentially an Airbnb for urban farmers!). Gardeners can log in, search lots in various ways, message owners, and checkout a lease agreement. Owners can login, create, edit, delete and manage their properties. This was a group project (with 2 other team members) built in less than 2 weeks.'
             secondText='(Only search for Edmonton, Canada, and Langley, Canada in the demo :))'
             />
