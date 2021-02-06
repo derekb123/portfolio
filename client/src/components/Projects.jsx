@@ -13,7 +13,7 @@ const Projects = () => {
     <section className="projects">
       <Container className="projects">
         <h2 className='comp-title2'>
-          Projects
+          Project Samples
         </h2>
         <Row>
             <Project 
